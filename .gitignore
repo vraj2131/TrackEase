@@ -1,0 +1,38 @@
+# ---- Eclipse / IDE ----
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+*.swp
+*.swo
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# ---- Build / Deploy ----
+/target/
+/build/
+/dist/
+/out/
+
+# ---- Logs / Temp ----
+*.log
+*.tmp
+*.bak
+
+# ---- Java ----
+*.class
+*.war
+*.ear
+
+# ---- Sensitive Config ----
+db.properties
+*.env
+*.credentials
+*.secret
+
+# ---- Misc ----
+node_modules/
